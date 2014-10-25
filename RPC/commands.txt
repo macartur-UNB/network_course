@@ -1,0 +1,10 @@
+make IDF
+run:
+	rpcgen -a file.x
+modify :
+	calcular_client.c
+	calcular_clnt.c
+	calcular_svc.c
+	calcular_xdr.c
+	calcular_server.c
+	calcular.h
